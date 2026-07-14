@@ -1,0 +1,186 @@
+{
+  "version": "1.7",
+  "build": 146,
+  "channel": "Private Alpha",
+  "releaseLabel": "Version 1.7 Build 146 Private Alpha",
+  "name": "v1.7-build146",
+  "releaseUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/tag/v1.7-build146",
+  "publishedAt": "2026-07-14T17:12:32.287Z",
+  "websiteUrl": "https://anxoscontrolcenter.org",
+  "releaseRepository": {
+    "owner": "bungopam-byte",
+    "repo": "AnxOS-Control-Center-Releases"
+  },
+  "updateSource": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/latest",
+  "supportedOperatingSystems": [
+    "Windows 11 x64",
+    "Debian-compatible Linux x64",
+    "Ubuntu-compatible Linux x64"
+  ],
+  "minimumArchitecture": "x64",
+  "expectedReleaseArtifacts": [
+    {
+      "key": "windows-setup",
+      "name": "AnxOS-Control-Center-Setup-1.7-build146.exe",
+      "platform": "windows",
+      "packageType": "nsis",
+      "role": "installer",
+      "requiredForRelease": true
+    },
+    {
+      "key": "windows-setup-blockmap",
+      "name": "AnxOS-Control-Center-Setup-1.7-build146.exe.blockmap",
+      "platform": "windows",
+      "packageType": "blockmap",
+      "role": "updater-metadata",
+      "requiredForRelease": true
+    },
+    {
+      "key": "windows-portable",
+      "name": "AnxOS-Control-Center-1.7-build146-portable.exe",
+      "platform": "windows",
+      "packageType": "portable",
+      "role": "portable",
+      "requiredForRelease": true
+    },
+    {
+      "key": "windows-latest-yml",
+      "name": "latest.yml",
+      "platform": "windows",
+      "packageType": "latest-yml",
+      "role": "updater-metadata",
+      "requiredForRelease": true
+    },
+    {
+      "key": "linux-deb",
+      "name": "AnxOS-Control-Center-1.7-build146.deb",
+      "platform": "linux",
+      "packageType": "deb",
+      "role": "installer",
+      "requiredForRelease": true
+    },
+    {
+      "key": "linux-appimage",
+      "name": "AnxOS-Control-Center-1.7-build146.AppImage",
+      "platform": "linux",
+      "packageType": "appimage",
+      "role": "portable",
+      "requiredForRelease": true
+    },
+    {
+      "key": "linux-latest-yml",
+      "name": "latest-linux.yml",
+      "platform": "linux",
+      "packageType": "latest-yml",
+      "role": "updater-metadata",
+      "requiredForRelease": true
+    }
+  ],
+  "checksumManifest": {
+    "name": "SHA256SUMS",
+    "algorithm": "sha256",
+    "requiredForRelease": true
+  },
+  "localAgentRuntime": {
+    "bundled": true,
+    "resourceRoot": "local-agent-runtime",
+    "runtimeId": "anxos-local-agent",
+    "requiredPaths": [
+      "local-agent-runtime/agent/package.json",
+      "local-agent-runtime/agent/src/server.js",
+      "local-agent-runtime/src/shared",
+      "local-agent-runtime/config/agent.example.json",
+      "local-agent-runtime/config/marketplace-templates.json",
+      "local-agent-runtime/local-agent-runtime.json"
+    ],
+    "excludedPatterns": [
+      ".env",
+      ".env.*",
+      "*.map",
+      ".git",
+      "agent.log",
+      "config/application-host.json",
+      "config/device-identity.json",
+      "config/nodes.json",
+      "config/owner-accounts.json"
+    ]
+  },
+  "rollback": {
+    "preservesUserData": true,
+    "preservesInstances": true,
+    "preservesBackups": true,
+    "rollbackMetadataRequired": true
+  },
+  "assets": [
+    {
+      "key": "windows-setup",
+      "platform": "windows",
+      "packageType": "nsis",
+      "role": "installer",
+      "requiredForRelease": true,
+      "name": "AnxOS-Control-Center-Setup-1.7-build146.exe",
+      "size": 118710230,
+      "downloadUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/download/v1.7-build146/AnxOS-Control-Center-Setup-1.7-build146.exe"
+    },
+    {
+      "key": "windows-setup-blockmap",
+      "platform": "windows",
+      "packageType": "blockmap",
+      "role": "updater-metadata",
+      "requiredForRelease": true,
+      "name": "AnxOS-Control-Center-Setup-1.7-build146.exe.blockmap",
+      "size": 125893,
+      "downloadUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/download/v1.7-build146/AnxOS-Control-Center-Setup-1.7-build146.exe.blockmap"
+    },
+    {
+      "key": "windows-portable",
+      "platform": "windows",
+      "packageType": "portable",
+      "role": "portable",
+      "requiredForRelease": true,
+      "name": "AnxOS-Control-Center-1.7-build146-portable.exe",
+      "size": 118168907,
+      "downloadUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/download/v1.7-build146/AnxOS-Control-Center-1.7-build146-portable.exe"
+    },
+    {
+      "key": "windows-latest-yml",
+      "platform": "windows",
+      "packageType": "latest-yml",
+      "role": "updater-metadata",
+      "requiredForRelease": true,
+      "name": "latest.yml",
+      "size": 384,
+      "downloadUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/download/v1.7-build146/latest.yml"
+    },
+    {
+      "key": "linux-deb",
+      "platform": "linux",
+      "packageType": "deb",
+      "role": "installer",
+      "requiredForRelease": true,
+      "name": "AnxOS-Control-Center-1.7-build146.deb",
+      "size": 117286860,
+      "downloadUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/download/v1.7-build146/AnxOS-Control-Center-1.7-build146.deb"
+    },
+    {
+      "key": "linux-appimage",
+      "platform": "linux",
+      "packageType": "appimage",
+      "role": "portable",
+      "requiredForRelease": true,
+      "name": "AnxOS-Control-Center-1.7-build146.AppImage",
+      "size": 149307821,
+      "downloadUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/download/v1.7-build146/AnxOS-Control-Center-1.7-build146.AppImage"
+    },
+    {
+      "key": "linux-latest-yml",
+      "platform": "linux",
+      "packageType": "latest-yml",
+      "role": "updater-metadata",
+      "requiredForRelease": true,
+      "name": "latest-linux.yml",
+      "size": 575,
+      "downloadUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/download/v1.7-build146/latest-linux.yml"
+    }
+  ]
+}
