@@ -5,13 +5,13 @@
   "releaseLabel": "Version 1.7 Build 146 Private Alpha",
   "name": "v1.7-build146",
   "releaseUrl": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/tag/v1.7-build146",
-  "publishedAt": "2026-07-14T17:12:32.287Z",
+  "publishedAt": "2026-07-14T17:46:01.725Z",
   "websiteUrl": "https://anxoscontrolcenter.org",
   "releaseRepository": {
     "owner": "bungopam-byte",
     "repo": "AnxOS-Control-Center-Releases"
   },
-  "updateSource": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases/latest",
+  "updateSource": "https://github.com/bungopam-byte/AnxOS-Control-Center-Releases/releases",
   "supportedOperatingSystems": [
     "Windows 11 x64",
     "Debian-compatible Linux x64",
